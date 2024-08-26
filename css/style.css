@@ -9,9 +9,12 @@
 
 body {
     text-align: center;
+    background: linear-gradient(to bottom, #5cc1d1, #fff);
+    min-height: 100vh;
 }
 
 main {
     background-color: aqua;
     display: inline-block;
+    margin-top: ;
 }
