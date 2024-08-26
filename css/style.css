@@ -15,9 +15,9 @@ body {
 
 main {
     display: inline-block;
-    margin-top: ;
+    padding: 0px;
 }
 
-.pokedexx {
+.pokedex {
     width: 100%;
 }
