@@ -14,7 +14,10 @@ body {
 }
 
 main {
-    background-color: aqua;
     display: inline-block;
     margin-top: ;
+}
+
+.pokedexx {
+    width: 100%;
 }
