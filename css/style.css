@@ -34,8 +34,19 @@ main {
 
 .pokemon__data {
     position: absolute;
-    font-weight: 600;
-    color: #fff;
-    top: 83%;
-    right: 40%;
+    font-weight: 580;
+    font-size: clamp(23px, 5vw, 23px);
+    color: #ff0000;
+    top: 67%;
+    right: 33%;
+}
+
+.pokemon__name {
+    color: rgb(18, 40, 50);
+    text-transform: capitalize; /* Deixa somente a primeira letra em maiusculo */
+}
+
+.form {
+    position: absolute;
+    background-color: red;  
 }
