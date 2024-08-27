@@ -65,3 +65,7 @@ main {
     font-size: clamp(10px, 5vw, 0,9rem);
     box-shadow: -2px 3px 0 #133c19, -4px 5px 0 #081a0b;
 }
+
+input::placeholder {
+    color: #fc0e1a;
+  }
