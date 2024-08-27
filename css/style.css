@@ -78,9 +78,16 @@ main {
 
 .button {
     width: 25%;
-    background-color: #4d524e;
+    background-color: #58595B;
     border-radius: 15%;
     font-weight: 700;
+    border-color: #8f9482;
+    border-right: none;
+    border-left: none;
+}
+
+.button:active {
+    font-size: 0.7rem;
 }
 
 input::placeholder {
