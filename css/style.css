@@ -62,7 +62,7 @@ main {
     border-radius: 5px;
     font-weight: 600px;
     color: #051006;
-    font-size: clamp(10px, 5vw, 0,9rem);
+    font-size: clamp(10px, 5vw, 1.1rem);
     box-shadow: -2px 3px 0 #133c19, -4px 5px 0 #081a0b;
 }
 
@@ -93,3 +93,23 @@ main {
 input::placeholder {
     color: #fc0e1a;
   }
+
+ /* Limpa o 'X' do Internet Explorer */
+ input[type=search]::-ms-clear {  
+    display: none; 
+    width : 0; 
+    height: 0; 
+    }
+    input[type=search]::-ms-reveal { 
+    display: none; 
+    width : 0; 
+    height: 0; 
+    }
+   
+   /* Limpa o 'X' do Chrome */
+   input[type="search"]::-webkit-search-decoration,
+   input[type="search"]::-webkit-search-cancel-button,
+   input[type="search"]::-webkit-search-results-button,
+   input[type="search"]::-webkit-search-results-decoration { 
+   display: none; 
+   }
