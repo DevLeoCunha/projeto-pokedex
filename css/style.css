@@ -69,14 +69,16 @@ main {
 .buttons {
     position: absolute;
     bottom: 14%;
-    left: 80%;
-    width: 0%;
-    background-color: #fc0e1a;
-    transform: translate(-50%, 0);
+    left: 83%;
+    width: 31%;
+    transform: translate(-40%, 0);
+    display: flex;
+    gap: 22px;
 }
 
 .button {
-
+    width: 25%;
+    background-color: #4d524e;
 }
 
 input::placeholder {
