@@ -36,20 +36,32 @@ main {
     position: absolute;
     font-weight: 580;
     font-size: clamp(23px, 5vw, 23px);
-    color: #ff0000;
+    color: #ED1B24;
     top: 67%;
     right: 33%;
 }
 
 .pokemon__name {
-    color: rgb(18, 40, 50);
+    color: #20211D;
     text-transform: capitalize; /* Deixa somente a primeira letra em maiusculo */
 }
 
 .form {
-    position: absolute;
-    background-color: red;  
+    position: absolute; 
     width: 100%;
-    top: 86% ;
-    left: 1%;
+    top: 81% ;
+    left: -5%;
+}
+
+.input__search {
+    background-color: #3AB54A;
+    width: 45%;
+    outline: none;
+    padding: 7%;
+    border: 3px solid #0c2810;
+    border-radius: 5px;
+    font-weight: 600px;
+    color: #051006;
+    font-size: clamp(10px, 5vw, 0,9rem);
+    box-shadow: -2px 3px 0 #133c19, -4px 5px 0 #081a0b;
 }
