@@ -20,12 +20,12 @@ const renderPokemon = async (pokemon) => {
     pokemonNumber.innerHTML = data.id;
     pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
 
+    input.value = '';
+
 }
 
 form.addEventListener('submit', (event) => {
 
     event.preventDefault();
-
     renderPokemon(input.value);
-
 });
