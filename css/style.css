@@ -66,6 +66,19 @@ main {
     box-shadow: -2px 3px 0 #133c19, -4px 5px 0 #081a0b;
 }
 
+.buttons {
+    position: absolute;
+    bottom: 14%;
+    left: 80%;
+    width: 0%;
+    background-color: #fc0e1a;
+    transform: translate(-50%, 0);
+}
+
+.button {
+
+}
+
 input::placeholder {
     color: #fc0e1a;
   }
