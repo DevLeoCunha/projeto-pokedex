@@ -15,8 +15,8 @@ const renderPokemon = async (pokemon) => {
     
     pokemonName.innerHTML = data.name;
     pokemonNumber.innerHTML = data.id;
-    pokemonImage.src = data['sprites']['versions']['generation-viii']['icons']
+    pokemonImage.src = data['sprites']['versions']['generation-viii']['icons']['front_default'];
 
 }
 
-renderPokemon('')
+renderPokemon('700')
